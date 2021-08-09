@@ -28,7 +28,7 @@ const Footer = () => {
           <SocialIcons href="https://twitter.com/sadiq_abl" target="_blank" rel="noreferrer">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/abdul-latif-sadiq" target="_blank" rel="noreferrer">
+          <SocialIcons href="https://linkedin.com/in/abdul-latif-sadiq-236079154" target="_blank" rel="noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

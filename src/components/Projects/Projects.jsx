@@ -3,7 +3,8 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import Button from '../../styles/GlobalComponents/Button';
+import { Button } from '../TimeLine/TimeLineStyles';
+// import { Button } from './TimeLineStyles';
 
 const Projects = () => (
   <Section id="projects">
@@ -31,7 +32,7 @@ const Projects = () => (
               }
             </TagList>
             <UtilityList>
-              <Button href={visit}>Source</Button>
+              <Button href={visit} target="_blank" rel="noreferrer">Source</Button>
             </UtilityList>
           </div>
         </BlogCard>

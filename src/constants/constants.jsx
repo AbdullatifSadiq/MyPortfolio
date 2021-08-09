@@ -4,8 +4,8 @@ export const projects = [
     description: "Using HTML, CSS and Bootstrap I created the front-end part of a website for a freight company to help their customers track their package after it has been shipped.",
     image: '/images/1.png',
     tags: ['HTML', 'CSS', 'Bootstrap'],
-    source: 'https://expresspassage',
-    visit: 'https://expresspassage',
+    source: 'https://expresspassage.com',
+    visit: 'https://expresspassage.com',
     id: 0,
   },
   {
