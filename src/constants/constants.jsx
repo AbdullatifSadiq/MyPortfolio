@@ -9,16 +9,6 @@ export const projects = [
     visit: 'https://expresspassage.com',
     id: 0,
   },
-  // {
-  //   title: 'RealEstimate',
-  //   description:
-  //     'Using HTML, CSS, Bootstrap and JavaScript I created the client-side of a machine learning house price prediction system.',
-  //   image: '/images/2.png',
-  //   tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
-  //   source: 'https://github.com/AbdullatifSadiq/RealEstimate',
-  //   visit: 'https://github.com/AbdullatifSadiq/RealEstimate',
-  //   id: 1,
-  // },
   {
     title: 'Zillow Clone',
     description:
