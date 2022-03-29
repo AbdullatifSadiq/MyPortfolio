@@ -13,7 +13,7 @@ export const projects = [
     title: 'RealEstimate',
     description:
       'Using HTML, CSS, Bootstrap and JavaScript I created the client-side of a machine learning house price prediction system.',
-    image: '/images/2.png',
+    image: '/images/4.png',
     tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://github.com/AbdullatifSadiq/RealEstimate',
     visit: 'https://github.com/AbdullatifSadiq/RealEstimate',
