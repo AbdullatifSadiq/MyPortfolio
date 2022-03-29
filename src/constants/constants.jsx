@@ -14,7 +14,7 @@ export const projects = [
     description:
       'Using HTML, CSS, Bootstrap and JavaScript I created the client-side of a machine learning house price prediction system.',
     image: '/images/2.png',
-    tags: ['React', 'CSS', 'JavaScript'],
+    tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://github.com/AbdullatifSadiq/RealEstimate',
     visit: 'https://github.com/AbdullatifSadiq/RealEstimate',
     id: 1,
@@ -24,7 +24,7 @@ export const projects = [
     description:
       'This is a clone for the official zillow website created using, React and regular css. The site is still under development and is only fully functional in the mobile view ',
     image: '/images/4.png',
-    tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    tags: ['React', 'CSS', 'JavaScript'],
     source: 'https://github.com/AbdullatifSadiq/zillowClone-react',
     visit: 'https://zillowclone.herokuapp.com',
     id: 2,
