@@ -17,9 +17,8 @@ const Timeline = () => {
         science background. I'm currently specializing in front-end web
         development where I focus on building the fast and responsive web
         application.
-        {/* I use HTML, CSS, Tailwind ,Javascript, Typescript and React to build fast and responsive web applications.<br />  */}{' '}
         <br />
-        To know more please download my CV here.
+        To know more please download my CV.
       </SectionText>
       <Button
         download
