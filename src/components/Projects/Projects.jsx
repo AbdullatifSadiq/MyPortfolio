@@ -32,7 +32,7 @@ const Projects = () => (
               }
             </TagList>
             <UtilityList>
-              <Button href={visit} target="_blank" rel="noreferrer">Source</Button>
+              <Button href={visit} target="_blank" rel="noreferrer">Visit</Button>
             </UtilityList>
           </div>
         </BlogCard>
