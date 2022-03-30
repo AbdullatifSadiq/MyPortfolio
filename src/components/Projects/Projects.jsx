@@ -1,17 +1,31 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+} from './ProjectsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import { Button } from '../TimeLine/TimeLineStyles';
 // import { Button } from './TimeLineStyles';
 
 const Projects = () => (
-  <Section id="projects">
+  <Section id='projects'>
     <SectionDivider />
-    <SectionTitle main>
-      Project
-    </SectionTitle>
+    <SectionTitle main>Selected Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, visit, tags }) => (
         <BlogCard key={id}>
@@ -22,17 +36,16 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>
-              Stack
-            </TitleContent>
+            <TitleContent>Stack</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
-              ))
-              }
+              ))}
             </TagList>
             <UtilityList>
-              <Button href={visit} target="_blank" rel="noreferrer">Visit</Button>
+              <Button href={visit} target='_blank' rel='noreferrer'>
+                Visit
+              </Button>
             </UtilityList>
           </div>
         </BlogCard>
