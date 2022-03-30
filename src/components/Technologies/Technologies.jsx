@@ -43,7 +43,7 @@ const Technologies = () => (
             Experience with <br />
             MongoDB
             <br />
-            Express Js
+            Node-Express Js
           </ListParagraph>
         </ListContainer>
       </ListItem>
