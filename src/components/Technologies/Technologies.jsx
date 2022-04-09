@@ -50,10 +50,10 @@ const Technologies = () => (
       <ListItem>
         <DiFirebase size='3rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Others</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma
+            React Testing Library & jest
           </ListParagraph>
         </ListContainer>
       </ListItem>
